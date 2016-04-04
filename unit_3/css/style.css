@@ -1,14 +1,14 @@
 body {
 	color: rgb(105,105,105);
-	background-color: rgb(215,215,215);
+	background-color: rgb(255,255,255);
 	font-family: Helvetica, sans-serif;
 	text-align: center;
 }
 #slogan {
 	font-style: italic;
-	background-color: rgb(255,255,255);
 	font-size: 2em;
 }
 h1 {
-	background-color: rgb(255,255,255);
+	color: rgb(0,0,0);
+	font-size: 2em;
 }
