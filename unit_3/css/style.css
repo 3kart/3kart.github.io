@@ -3,12 +3,19 @@ body {
 	background-color: rgb(255,255,255);
 	font-family: Helvetica, sans-serif;
 	text-align: center;
+	font-size: 1.5em;
 }
-#slogan {
+.class {
+	color: rgb(0,0,0)
 	font-style: italic;
-	font-size: 2em;
+	font-size: 4em;
 }
 h1 {
 	color: rgb(0,0,0);
-	font-size: 2em;
+	font-size: 4em;
+}
+#unique {
+	color: rgb(255,255,255);
+	background-color: rgb(255,0,255);
+	font-size: 4em;
 }
