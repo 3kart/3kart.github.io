@@ -1,15 +1,18 @@
-<link href='https://fonts.googleapis.com/css?family=Boogaloo' rel='stylesheet' type='text/css'>
+@import url(https://fonts.googleapis.com/css?family=Boogaloo);
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400italic);
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans);
 body {
 	color: rgb(105,105,105);
 	background-color: rgb(255,255,255);
-	font-family: Helvetica, sans-serif;
+	font-family: 'Fira Sans', sans-serif;
 	text-align: center;
 	font-size: 24px;
 }
 .slogan {
+	font-family: 'Fira Sans', sans-serif;
 	color: rgb(0,0,0);
 	font-style: italic;
-	font-size: 2.5em;
+	font-size: 3em;
 }
 h1 {
 	font-family: 'Boogaloo', cursive;
@@ -18,21 +21,27 @@ h1 {
 	text-align: center;
 }
 .but-what {
+	font-family: 'Fira Sans', sans-serif;
 	font-size: 2.5em;
 }
 /*#Something {
 	margin-left: 300px;
 }*/
 .unique {
+	font-family: 'Fira Sans', sans-serif;
 	color: rgb(255,255,255);
 	background-color: rgb(228,18,79);
 	font-size: 2.5em;
 }
 #why-not {
+	font-family: 'Fira Sans', sans-serif;
 	font-size: 2em;
+	font-style: italic;
+	color: rgb(0,0,0);
 }
 #small-print {
-	font-size: 0.5em;
+	font-family: 'Fira Sans', sans-serif;
+	/*font-size: 0.5em;*/
 }
 #hr {
 	color: rgb(228,18,79);
