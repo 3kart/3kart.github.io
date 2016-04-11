@@ -50,14 +50,25 @@ ul {
 	list-style-type: none;
 }
 #awkward-teenager {
-	display: inline-table;
-	align-items: top;
-	margin: 0px;
-	border: 2px solid black;
+	display:block;
+	/*margin:0 auto;*/
+	/*width:200px;*/
+	/*position:relative;*/
+	/*top:50%;*/
+	/*transform: translateY(-50%);*/
+	/*float: right;*/
+	/*padding: 100px 25px;*/
+	/*width: 655px;*/
+}
+#test {
+	float: right;
 }
 .images {
 	margin-left: 50px;
-	align-content: top;
+	/*align-content: top;*/
 	font-family: Lucida, serif;
 	font-size: 1.2em;
+}
+.align{
+	vertical-align: middle;
 }
