@@ -64,13 +64,20 @@ ul {
 	float: right;
 }
 .images {
-	display: block;
+	display: inline;
 	text-align: left;
 	margin-left: 250px;
 	/*align-content: top;*/
 	font-family: Lucida, serif;
 	font-size: 1.2em;
 }
-.align{
+.align1{
+	vertical-align: middle;
+	box-shadow: 5px 5px 3px #888888;
+}
+.align2{
+	vertical-align: middle;
+}
+.arrow{
 	vertical-align: middle;
 }
