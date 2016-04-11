@@ -50,7 +50,7 @@ ul {
 	list-style-type: none;
 }
 #awkward-teenager {
-	display:block;
+	/*display:block;*/
 	/*margin:0 auto;*/
 	/*width:200px;*/
 	/*position:relative;*/
@@ -64,7 +64,9 @@ ul {
 	float: right;
 }
 .images {
-	margin-left: 50px;
+	display: block;
+	text-align: left;
+	margin-left: 250px;
 	/*align-content: top;*/
 	font-family: Lucida, serif;
 	font-size: 1.2em;
