@@ -64,10 +64,9 @@ ul {
 	float: right;
 }
 .images {
-	display: inline;
+	display: block;
 	text-align: left;
-	margin-left: 250px;
-	/*align-content: top;*/
+	margin-left: 200px;
 	font-family: Lucida, serif;
 	font-size: 1.2em;
 }
