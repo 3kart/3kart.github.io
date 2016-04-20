@@ -76,8 +76,9 @@ h1 {
 	font-family: 'Fira Sans', sans-serif;
 	/*font-size: 0.5em;*/
 }
-#hr {
-	color: rgb(228,18,79);
+#hrx {
+	color: rgb(255,0,0);
+	height: 3em;
 }
 ul {
 	list-style-type: none;
@@ -114,6 +115,14 @@ aside {
 	color: rgb(0,0,0);
 	background-color: #FFC675;
 }
+.hasht {
+	color: rgb(0,0,255);
+}
 footer {
 	background-color: #FF957E;
+}
+.slogan2 {
+	font-family: 'Fira Sans', sans-serif;
+	color: rgb(0,0,0);
+	font-size: 2em;
 }
