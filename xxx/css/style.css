@@ -14,9 +14,10 @@ nav {
 	height: 170px;
 }
 #logo {
+	float: left;
 	margin-top: 10px;
 	margin-left: 40px;
-	padding: .6em;
+	padding: .3em;
 	width: 200px;
 }
 #nav1 {
