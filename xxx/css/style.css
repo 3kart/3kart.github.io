@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Boogaloo);
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans:400italic);
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans);
+
 body {
 	color: rgb(105,105,105);
 	background-color: rgb(255,255,255);
@@ -8,6 +9,55 @@ body {
 	text-align: center;
 	font-size: 24px;
 }
+nav {
+	background-color: rgb(211,211,211);
+	height: 170px;
+}
+#logo {
+	float: left;
+	margin-top: 10px;
+	margin-left: 150px;
+	padding: .2em;
+	width: 200px;
+}
+#nav1 {
+	float: left;
+	margin-top: 50px;
+	margin-left: 250px;
+	padding: .2em,.1em,0;
+	background-color: rgb(255,255,153);
+	border: 2px black solid;
+	font-size: 3em;
+	font-style: italic;
+	color: rgb(220,20,60);
+	width: 600px;
+	height: 100px;
+}
+#nav2 {
+	float: left;
+	margin-top: 50px;
+	margin-left: 90px;
+	padding: .2em,.1em,0;
+	background-color: white;
+	border: 2px black solid;
+	font-size: 1.5em;
+	font-style: italic;
+	width: 200px;
+	height: 100px;
+}
+#nav3 {
+	float: left;
+	margin-top: 50px;
+	margin-left: 90px;
+	padding: .2em,.1em,0;
+	background-color: white;
+	border: 2px black solid;
+	font-size: 1.5em;
+	font-style: italic;
+	width: 200px;
+	height: 100px;
+}
+
 .slogan {
 	font-family: 'Fira Sans', sans-serif;
 	color: rgb(0,0,0);
@@ -29,9 +79,7 @@ h1 {
 	color: white;
 	background-color: rgb(228,28,79)
 }
-/*#Something {
-	margin-left: 300px;
-}*/
+
 .unique {
 	font-family: 'Fira Sans', sans-serif;
 	color: rgb(255,255,255);
@@ -48,33 +96,92 @@ h1 {
 	font-family: 'Fira Sans', sans-serif;
 	/*font-size: 0.5em;*/
 }
-#hr {
-	color: rgb(228,18,79);
+#hrx {
+	border-style: solid;
+	border-color: rgb(75,75,75);
+	background-color: rgb(75,75,75);
+	height: .1em;
 }
 ul {
 	list-style-type: none;
 }
-#awkward-teenager {
-	/*display:block;*/
-	/*margin:0 auto;*/
-	/*width:200px;*/
-	/*position:relative;*/
-	/*top:50%;*/
-	/*transform: translateY(-50%);*/
-	/*float: right;*/
-	/*padding: 100px 25px;*/
-	/*width: 655px;*/
+.float1 {
+	float: left;
+	height: 200px;
+	padding-right: 10px;
 }
-#test {
-	float: right;
+.afterfloat1 {
+	margin-top: 110px;
+	margin-bottom: 60px;
 }
-.images {
+.afterfloat2 {
+	margin-top: 110px;
+	margin-bottom: 110px;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+.images1 {
 	display: block;
 	text-align: left;
-	margin-left: 200px;
+	margin-left: 50px;
+	padding: 40px;
+	width: 1300px;
 	font-family: Lucida, serif;
-	font-size: 1.2em;
+	font-size: 1.5em;
+	color: rgb(220,20,60);
+	background-color: rgb(255,255,153);
 }
+.images2 {
+	display: block;
+	text-align: left;
+	margin-left: 50px;
+	padding: 40px;
+	width: 1300px;
+	font-family: Lucida, serif;
+	font-size: 1.5em;
+	color: rgb(220,20,60);
+	background-color: rgb(255,204,255);
+}
+.images3 {
+	display: block;
+	text-align: left;
+	margin-left: 50px;
+	padding: 40px;
+	width: 1300px;
+	font-family: Lucida, serif;
+	font-size: 1.5em;
+	color: rgb(220,20,60);
+	background-color: rgb(194,243,246);
+}
+.images4 {
+	display: block;
+	text-align: left;
+	margin-left: 50px;
+	padding: 40px;
+	width: 1300px;
+	font-family: Lucida, serif;
+	font-size: 1.5em;
+	color: rgb(220,20,60);
+	background-color: rgb(176,251,139);
+}
+.images5 {
+	display: block;
+	text-align: left;
+	margin-left: 50px;
+	padding: 40px;
+	width: 1300px;
+	font-family: Lucida, serif;
+	font-size: 1.5em;
+	color: rgb(220,20,60);
+	background-color: rgb(215,193,250);
+	}
 .align1{
 	vertical-align: middle;
 	box-shadow: 5px 5px 3px #888888;
@@ -84,4 +191,24 @@ ul {
 }
 .arrow{
 	vertical-align: middle;
+}
+aside {
+	font-size: 2em;
+	color: rgb(0,0,0);
+	background-color: rgba(255,255,0,.5);
+}
+#whatuneed {
+	font-style: italic;
+	color: rgb(220,20,60);
+}
+.hasht {
+	color: rgb(0,0,255);
+}
+footer {
+	background-color: rgb(211,211,211);
+}
+.slogan2 {
+	font-family: 'Fira Sans', sans-serif;
+	color: rgb(0,0,0);
+	font-size: 2em;
 }
