@@ -147,8 +147,9 @@ ul {
 	font-family: Lucida, serif;
 	font-size: 1.5em;
 	color: rgb(220,20,60);
-	background: url("https://github.com/3kart/3kart.github.io/blob/master/xxx/images/whitewood.png");
+	background-image: url("images/whitewood.png");
 	background-size: cover;
+	background-color: rgb(250,250,250);
 }
 .images2 {
 	display: block;
