@@ -70,7 +70,7 @@ nav {
 	font-family: 'Fira Sans', sans-serif;
 	color: rgb(0,0,0);
 	font-style: italic;
-	font-size: 3em;
+	font-size: 2em;
 }
 h1 {
 	font-family: 'Boogaloo', cursive;
@@ -81,11 +81,11 @@ h1 {
 }
 #slogan2 {
 	background-color: rgb(211,211,211);
-	height: 450px;
+	padding: 50px,0;
 }
 .but-what {
 	font-family: 'Fira Sans', sans-serif;
-	font-size: 2.5em;
+	font-size: 2em;
 }
 #box-text {
 	padding: .1em .1em 0 .1em;
@@ -123,6 +123,10 @@ ul {
 	float: left;
 	height: 200px;
 	padding-right: 10px;
+}
+.afterfloat {
+	margin-top: 310px;
+	margin-left: 210px;
 }
 .afterfloat1 {
 	margin-top: 110px;
