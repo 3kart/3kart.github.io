@@ -148,22 +148,16 @@ ul {
 	margin-top: 310px;
 	margin-left: 210px;
 }
-.afterfloat1 {
-	margin-top: 110px;
-	margin-bottom: 60px;
-}
-.afterfloat2 {
-	margin-top: 110px;
-	margin-bottom: 110px;
-}
+
 #ideas {
 	float: left;
+	width: 72%;
 }
 
 #idea1 {
 	text-align: left;
 	padding: 40px;
-	width: 1300px;
+	/*width: 1300px;*/
 	font-family: Lucida, serif;
 	font-size: 1.5em;
 	color: rgb(220,20,60);
@@ -174,7 +168,7 @@ ul {
 #idea2 {
 	text-align: left;
 	padding: 40px;
-	width: 1300px;
+	/*width: 1300px;*/
 	font-family: Lucida, serif;
 	font-size: 1.5em;
 	color: rgb(220,20,60);
@@ -183,7 +177,7 @@ ul {
 #idea3 {
 	text-align: left;
 	padding: 40px;
-	width: 1300px;
+	/*width: 1300px;*/
 	font-family: Lucida, serif;
 	font-size: 1.5em;
 	color: rgb(220,20,60);
@@ -192,7 +186,7 @@ ul {
 #idea4 {
 	text-align: left;
 	padding: 40px;
-	width: 1300px;
+	/*width: 1300px;*/
 	font-family: Lucida, serif;
 	font-size: 1.5em;
 	color: rgb(220,20,60);
@@ -201,7 +195,7 @@ ul {
 #idea5 {
 	text-align: left;
 	padding: 40px;
-	width: 1300px;
+	/*width: 1300px;*/
 	font-family: Lucida, serif;
 	font-size: 1.5em;
 	color: rgb(220,20,60);
@@ -219,7 +213,7 @@ ul {
 }
 aside {
 	float: right;
-	width: 460px;
+	width: 24%;
 	margin-left: 5px;
 	padding: 15px 15px 100px 15px;
 	font-size: 1.5em;
