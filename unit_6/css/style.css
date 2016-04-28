@@ -9,10 +9,13 @@ body {
 	text-align: center;
 	font-size: 24px;
 }
+#wrapper {
+	width: 1200px;
+	align-content: center;
+}
 nav {
 	background-color: rgb(211,211,211);
-	padding: 10px;
-	
+	padding: 10px;	
 }
 #logo {
 	float: left;
@@ -21,15 +24,19 @@ nav {
 	padding: 10px;
 	width: 200px;
 }
-a:hover {
+div a.nav2:hover {
 	color: rgb(220,20,60);
 }
-#nav1 {
+section a#logo2:hover {
+	color: rgb(220,20,60);
+	background-color: rgb(240,240,240);
+}
+.nav1 {
 	float: left;
 	width: 600px;
 	height: 100px;
 	margin-top: 50px;
-	margin-left: 200px;
+	margin-left: 100px;
 	padding: .2em,.1em,0;
 	background-color: rgb(255,255,0);
 	border: 2px black solid;
@@ -39,12 +46,35 @@ a:hover {
 	text-decoration: none;
 	color: rgb(59,59,59);
 	}
-#nav2 {
-	float: left;
+.nav1 ul {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+.nav1 ul li {
+	display: inline-block;
+}
+.nav1 ul li:hover {background: rgb(211,211,211);}
+.nav1 ul li:hover ul {display: block;}
+.nav1 ul li ul {
+	position: absolute;
+	width: 530px;
+	display: none;
+}
+.nav1 ul li ul li {
+	background: rgb(255,255,0);
+	display: block;
+	text-align: left;
+}
+.nav1 ul li ul li a {display: block; !important;}
+.nav1 ul li ul li:hover {background: rgb(211,211,211);}
+.nav2 {
+	float: right;
 	width: 280px;
 	height: 100px;
 	margin-top: 50px;
-	margin-left: 90px;
+	margin-left: 20px;
+	margin-right: 20px;
 	padding: .2em,.1em,0;
 	background-color: rgb(255,255,0);
 	border: 2px black solid;
@@ -53,25 +83,9 @@ a:hover {
 	line-height: 50px;
 	text-decoration: none;
 	color: rgb(59,59,59);
-	
 }
 #lightbulb {
 	float: left;
-}
-.nav3 {
-	float: left;
-	width: 280px;
-	height: 100px;
-	margin-top: 50px;
-	margin-left: 90px;
-	padding: .2em,.1em,0;
-	background-color: rgb(255,255,0);
-	border: 2px black solid;
-	font-size: 36px;
-	font-style: italic;
-	line-height: 50px;
-	text-decoration: none;
-	color: rgb(59,59,59);
 }
 #checklist {
 	float: left;
@@ -141,12 +155,18 @@ ul {
 }
 .float1 {
 	float: left;
-	height: 200px;
 	padding-right: 10px;
+	padding-bottom: 10px;
+}
+.float2 {
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 10px;
 }
 .afterfloat {
-	margin-top: 310px;
+	margin-top: 260px;
 	margin-left: 210px;
+	padding-top: 50px;
 }
 
 #ideas {
@@ -161,17 +181,20 @@ ul {
 	font-family: Lucida, serif;
 	font-size: 1.5em;
 	color: rgb(220,20,60);
-	background: url("images/whitewood.png");
+	background: url("../images/whitewood.PNG");
 	background-size: cover;
 	background-color: rgb(240,240,240);
 	}
 #idea2 {
+	clear: both;
 	text-align: left;
 	padding: 40px;
 	/*width: 1300px;*/
 	font-family: Lucida, serif;
 	font-size: 1.5em;
 	color: rgb(220,20,60);
+	background: url("../images/whitewooddarker.PNG");
+	background-size: cover;
 	background-color: rgb(230,230,230);
 }
 #idea3 {
@@ -181,6 +204,8 @@ ul {
 	font-family: Lucida, serif;
 	font-size: 1.5em;
 	color: rgb(220,20,60);
+	background: url("../images/whitewood.PNG");
+	background-size: cover;
 	background-color: rgb(240,240,240);
 }
 #idea4 {
@@ -190,6 +215,8 @@ ul {
 	font-family: Lucida, serif;
 	font-size: 1.5em;
 	color: rgb(220,20,60);
+	background: url("../images/whitewooddarker.PNG");
+	background-size: cover;
 	background-color: rgb(230,230,230);
 }
 #idea5 {
@@ -199,6 +226,8 @@ ul {
 	font-family: Lucida, serif;
 	font-size: 1.5em;
 	color: rgb(220,20,60);
+	background: url("../images/whitewood.PNG");
+	background-size: cover;
 	background-color: rgb(240,240,240);
 }
 .align1{
@@ -221,6 +250,21 @@ aside {
 	background-color: rgb(211,211,211);
 	border: 2px rgb(105,105,105) solid;
 }
+#aside-top {
+	float: left;
+	width: 7em;
+	height: 3em;
+	margin-top: 1em;
+	margin-left: 10%;
+	padding: .5em,.1em,.5em;
+	background-color: rgb(255,255,0);
+	border: 2px black solid;
+	font-size: 36px;
+	font-style: italic;
+	line-height: 1em;
+	text-decoration: none;
+	color: rgb(59,59,59);
+}
 #aside-list {
 	clear: both;
 	padding-bottom: 100px;
@@ -228,7 +272,7 @@ aside {
 .tick {
 	height: 50px;
 }
-li {
+aside div ul li {
 	text-align: left;
 	padding-top: 50px;
 }
@@ -240,7 +284,9 @@ footer {
 	clear: both;
 	background-color: rgb(211,211,211);
 }
-.slogan2 {
+#logo2 {
+	height: 140px;
+	padding: 50px,0;
 	font-family: 'Fira Sans', sans-serif;
 	color: rgb(0,0,0);
 	font-size: 2em;
