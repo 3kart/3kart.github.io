@@ -11,8 +11,7 @@ body {
 }
 nav {
 	background-color: rgb(211,211,211);
-	padding: 10px;
-	
+	padding: 10px;	
 }
 #logo {
 	float: left;
@@ -33,7 +32,7 @@ section a#logo2:hover {
 	width: 600px;
 	height: 100px;
 	margin-top: 50px;
-	margin-left: 120px;
+	margin-left: 100px;
 	padding: .2em,.1em,0;
 	background-color: rgb(255,255,0);
 	border: 2px black solid;
@@ -66,11 +65,12 @@ section a#logo2:hover {
 .nav1 ul li ul li a {display: block; !important;}
 .nav1 ul li ul li:hover {background: rgb(211,211,211);}
 .nav2 {
-	float: left;
+	float: right;
 	width: 280px;
 	height: 100px;
 	margin-top: 50px;
-	margin-left: 90px;
+	margin-left: 20px;
+	margin-right: 20px;
 	padding: .2em,.1em,0;
 	background-color: rgb(255,255,0);
 	border: 2px black solid;
