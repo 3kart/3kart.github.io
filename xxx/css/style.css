@@ -7,7 +7,10 @@ body {
 	background-color: rgb(255,255,255);
 	font-family: 'Fira Sans', sans-serif;
 	text-align: center;
-	font-size: 24px;
+	font-size: 16px;
+}
+#wrapper {
+	/*width: 1200px;*/
 }
 nav {
 	background-color: rgb(211,211,211);
@@ -22,6 +25,7 @@ nav {
 }
 div a.nav2:hover {
 	color: rgb(220,20,60);
+	background: rgb(255,254,100);
 }
 section a#logo2:hover {
 	color: rgb(220,20,60);
@@ -29,14 +33,14 @@ section a#logo2:hover {
 }
 .nav1 {
 	float: left;
-	width: 600px;
+	width: 300px;
 	height: 100px;
 	margin-top: 50px;
-	margin-left: 100px;
-	padding: .2em,.1em,0;
-	background-color: rgb(255,255,0);
-	border: 2px black solid;
-	font-size: 72px;
+	margin-left: 50px;
+	padding: .2em;
+	/*background-color: rgb(255,255,0);*/
+	/*border: 2px black solid;*/
+	font-size: 2.5em;
 	font-style: italic;
 	line-height: 100px;
 	text-decoration: none;
@@ -50,33 +54,46 @@ section a#logo2:hover {
 .nav1 ul li {
 	display: inline-block;
 }
-.nav1 ul li:hover {background: rgb(211,211,211);}
-.nav1 ul li:hover ul {display: block;}
+.nav1 ul li a {
+	text-decoration: none;
+	color: rgb(75,75,75);
+}
+.nav1 ul li a:hover {
+	color: rgb(220,20,60);
+	background: rgb(240,240,240);
+	padding: .5em;
+}
+.nav1 ul li:hover ul {
+	display: block;
+	margin-left: 60px;
+}
 .nav1 ul li ul {
 	position: absolute;
-	width: 530px;
+	width: 300px;
 	display: none;
 }
 .nav1 ul li ul li {
-	background: rgb(255,255,0);
+	background: rgb(211,211,211);
 	display: block;
 	text-align: left;
 }
-.nav1 ul li ul li a {display: block; !important;}
+.nav1 ul li ul li a {display: block; !important;
+	text-decoration: none;
+}
 .nav1 ul li ul li:hover {background: rgb(211,211,211);}
 .nav2 {
 	float: right;
-	width: 280px;
+	width: 200px;
 	height: 100px;
 	margin-top: 50px;
 	margin-left: 20px;
 	margin-right: 20px;
-	padding: .2em,.1em,0;
+	padding: .5em;
 	background-color: rgb(255,255,0);
 	border: 2px black solid;
-	font-size: 36px;
+	font-size: 1.5em;
 	font-style: italic;
-	line-height: 50px;
+	/*line-height: 50px;*/
 	text-decoration: none;
 	color: rgb(59,59,59);
 }
@@ -137,7 +154,7 @@ h1 {
 }
 .small-print {
 	font-family: 'Fira Sans', sans-serif;
-	font-size: 24px;
+	/*font-size: 24px;*/
 	color: rgb(105,105,105);
 }
 #hrx {
@@ -177,19 +194,20 @@ ul {
 	font-family: Lucida, serif;
 	font-size: 1.5em;
 	color: rgb(220,20,60);
-	background: url("images/whitewood.PNG");
+	/*background: url("../images/whitewood.png");*/
 	background-size: cover;
 	background-color: rgb(240,240,240);
 	}
 #idea2 {
-	clear: both;
 	text-align: left;
 	padding: 40px;
 	/*width: 1300px;*/
 	font-family: Lucida, serif;
 	font-size: 1.5em;
 	color: rgb(220,20,60);
-	background-color: rgb(230,230,230);
+	/*background: url("../images/whitewooddarker.png");*/
+	background-size: cover;
+	background-color: rgb(220,220,200);
 }
 #idea3 {
 	text-align: left;
@@ -198,6 +216,8 @@ ul {
 	font-family: Lucida, serif;
 	font-size: 1.5em;
 	color: rgb(220,20,60);
+	/*background: url("../images/whitewood.png");*/
+	background-size: cover;
 	background-color: rgb(240,240,240);
 }
 #idea4 {
@@ -207,7 +227,9 @@ ul {
 	font-family: Lucida, serif;
 	font-size: 1.5em;
 	color: rgb(220,20,60);
-	background-color: rgb(230,230,230);
+	/*background: url("../images/whitewooddarker.png");*/
+	background-size: cover;
+	background-color: rgb(220,220,200);
 }
 #idea5 {
 	text-align: left;
@@ -216,6 +238,8 @@ ul {
 	font-family: Lucida, serif;
 	font-size: 1.5em;
 	color: rgb(220,20,60);
+	/*background: url("../images/whitewood.png");*/
+	background-size: cover;
 	background-color: rgb(240,240,240);
 }
 .align1{
@@ -223,10 +247,13 @@ ul {
 	box-shadow: 5px 5px 3px #888888;
 }
 .align2{
-	vertical-align: middle;
+	vertical-align: middle;	
 }
-.arrow{
-	vertical-align: middle;
+.align3 {
+	/*margin-left: 150px;*/
+}
+.accentuate {
+	font-weight: bold;
 }
 aside {
 	float: right;
@@ -238,7 +265,7 @@ aside {
 	background-color: rgb(211,211,211);
 	border: 2px rgb(105,105,105) solid;
 }
-#aside-top {
+aside #aside-top {
 	float: left;
 	width: 7em;
 	height: 3em;
@@ -247,7 +274,7 @@ aside {
 	padding: .5em,.1em,.5em;
 	background-color: rgb(255,255,0);
 	border: 2px black solid;
-	font-size: 36px;
+	font-size: 1.5em;
 	font-style: italic;
 	line-height: 1em;
 	text-decoration: none;
