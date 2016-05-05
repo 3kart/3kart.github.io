@@ -10,7 +10,7 @@ body {
 	font-size: 16px;
 }
 #wrapper {
-	/*width: 1200px;*/
+	width: 1200px;
 }
 nav {
 	background-color: rgb(211,211,211);
@@ -127,7 +127,8 @@ h1 {
 }
 #slogan2 {
 	background-color: rgb(211,211,211);
-	padding: 50px,0;
+	padding-top: 3px;
+	padding-bottom: 3px;
 }
 .but-what {
 	font-family: 'Fira Sans', sans-serif;
@@ -168,27 +169,23 @@ ul {
 }
 .float1 {
 	float: left;
-	padding-right: 10px;
+	padding-top: 10px;
 	padding-bottom: 10px;
 }
-.float2 {
-	float: left;
-	padding-right: 10px;
-	padding-bottom: 10px;
-}
+
 .afterfloat {
-	margin-top: 260px;
-	margin-left: 210px;
-	padding-top: 50px;
+	clear: both;
+	padding-top: 10px;
 }
 
 #ideas {
 	float: left;
-	width: 68%;
+	width: 72%;
 }
 
-#idea1 {
+.idea1 {
 	text-align: left;
+	margin-top: 10px;
 	padding: 40px;
 	/*width: 1300px;*/
 	font-family: Lucida, serif;
@@ -197,9 +194,11 @@ ul {
 	/*background: url("../images/whitewood.png");*/
 	background-size: cover;
 	background-color: rgb(240,240,240);
+	border: 2px rgb(105,105,105) solid;
 	}
-#idea2 {
+.idea2 {
 	text-align: left;
+	margin-top: 10px;
 	padding: 40px;
 	/*width: 1300px;*/
 	font-family: Lucida, serif;
@@ -208,40 +207,9 @@ ul {
 	/*background: url("../images/whitewooddarker.png");*/
 	background-size: cover;
 	background-color: rgb(220,220,200);
+	border: 2px rgb(105,105,105) solid;
 }
-#idea3 {
-	text-align: left;
-	padding: 40px;
-	/*width: 1300px;*/
-	font-family: Lucida, serif;
-	font-size: 1.5em;
-	color: rgb(220,20,60);
-	/*background: url("../images/whitewood.png");*/
-	background-size: cover;
-	background-color: rgb(240,240,240);
-}
-#idea4 {
-	text-align: left;
-	padding: 40px;
-	/*width: 1300px;*/
-	font-family: Lucida, serif;
-	font-size: 1.5em;
-	color: rgb(220,20,60);
-	/*background: url("../images/whitewooddarker.png");*/
-	background-size: cover;
-	background-color: rgb(220,220,200);
-}
-#idea5 {
-	text-align: left;
-	padding: 40px;
-	/*width: 1300px;*/
-	font-family: Lucida, serif;
-	font-size: 1.5em;
-	color: rgb(220,20,60);
-	/*background: url("../images/whitewood.png");*/
-	background-size: cover;
-	background-color: rgb(240,240,240);
-}
+
 .align1{
 	vertical-align: middle;
 	box-shadow: 5px 5px 3px #888888;
@@ -251,6 +219,7 @@ ul {
 }
 .align3 {
 	/*margin-left: 150px;*/
+	padding-left: 10%;
 }
 .accentuate {
 	font-weight: bold;
@@ -258,7 +227,8 @@ ul {
 aside {
 	float: right;
 	width: 24%;
-	margin-left: 5px;
+	margin-top: 10px;
+	/*margin-left: 5px;*/
 	padding: 15px 15px 100px 15px;
 	font-size: 1.5em;
 	color: rgb(0,0,0);
@@ -297,6 +267,7 @@ aside div ul li {
 }
 footer {
 	clear: both;
+	margin-top: 10px;
 	background-color: rgb(211,211,211);
 }
 #logo2 {
