@@ -42,10 +42,16 @@ header {
 	color: rgb(59,59,59);
 }
 #lightbulb {
-	/*float: left;*/
+	float: left;
+	width: 100px;
+	height: auto;
+	vertical-align: middle;
 }
 #checklist {
-	/*float: left;*/
+	float: left;
+	width: 100px;
+	height: auto;
+	vertical-align: middle;
 }
 .clearfix:after {
 	visibility: hidden;
