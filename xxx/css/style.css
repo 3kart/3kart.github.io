@@ -12,96 +12,40 @@ body {
 #wrapper {
 	width: 1200px;
 }
-nav {
+header {
 	background-color: rgb(211,211,211);
 	padding: 10px;	
 }
 #logo {
 	float: left;
-	margin-top: 10px;
-	margin-left: 20px;
-	padding: 10px;
+	/*margin-top: 10px;*/
+	/*margin-left: 20px;*/
+	/*padding: 10px;*/
 	width: 200px;
 }
-div a.nav2:hover {
-	color: rgb(220,20,60);
-	background: rgb(255,254,100);
-}
-section a#logo2:hover {
-	color: rgb(220,20,60);
-	background-color: rgb(240,240,240);
-}
+
 .nav1 {
 	float: left;
-	width: 300px;
-	height: 100px;
-	margin-top: 50px;
-	margin-left: 15px;
-	padding: .2em;
-	/*background-color: rgb(255,255,0);*/
-	/*border: 2px black solid;*/
-	font-size: 2.5em;
-	font-style: italic;
-	line-height: 100px;
-	text-decoration: none;
-	color: rgb(59,59,59);
-	}
-.nav1 ul {
-	display: inline;
-	margin: 0;
-	padding: 0;
-}
-.nav1 ul li {
-	display: inline-block;
-}
-.nav1 ul li a {
-	text-decoration: none;
-	color: rgb(75,75,75);
-}
-.nav1 ul li a:hover {
-	color: rgb(220,20,60);
-	background: rgb(240,240,240);
-	padding: .5em;
-}
-.nav1 ul li:hover ul {
-	display: block;
-	margin-left: 60px;
-}
-.nav1 ul li ul {
-	position: absolute;
-	width: 300px;
-	display: none;
-}
-.nav1 ul li ul li {
-	background: rgb(211,211,211);
-	display: block;
-	text-align: left;
-}
-.nav1 ul li ul li a {display: block; !important;
-	text-decoration: none;
-}
-.nav1 ul li ul li:hover {background: rgb(211,211,211);}
-.nav2 {
-	float: right;
+	/*vertical-align: middle;*/
 	width: 200px;
 	height: 100px;
 	margin-top: 50px;
 	margin-left: 20px;
 	margin-right: 20px;
-	padding: .5em;
+	/*padding: .5em;*/
 	background-color: rgb(255,255,0);
 	border: 2px black solid;
-	font-size: 1.5em;
+	/*font-size: 1.5em;*/
 	font-style: italic;
 	/*line-height: 50px;*/
 	text-decoration: none;
 	color: rgb(59,59,59);
 }
 #lightbulb {
-	float: left;
+	/*float: left;*/
 }
 #checklist {
-	float: left;
+	/*float: left;*/
 }
 .clearfix:after {
 	visibility: hidden;
