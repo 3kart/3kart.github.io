@@ -23,36 +23,39 @@ header {
 	/*padding: 10px;*/
 	width: 200px;
 }
-
+nav {
+	margin-top: 10px;
+	margin-left: 300px;
+}
 .nav1 {
 	float: left;
+	/*display: inline-block;*/
 	/*vertical-align: middle;*/
 	width: 200px;
-	height: 100px;
-	margin-top: 50px;
+	height: 80px;
+	margin-top: 20px;
 	margin-left: 20px;
-	margin-right: 20px;
-	/*padding: .5em;*/
+	/*margin-right: 20px;*/
+	padding: .1em;
 	background-color: rgb(255,255,0);
 	border: 2px black solid;
-	/*font-size: 1.5em;*/
+	font-size: 1.4em;
 	font-style: italic;
 	/*line-height: 50px;*/
 	text-decoration: none;
 	color: rgb(59,59,59);
 }
-#lightbulb {
+a.nav1:hover {
+	color: rgb(220,20,60);
+}
+
+.graphic1 {
 	float: left;
 	width: 100px;
 	height: auto;
 	vertical-align: middle;
 }
-#checklist {
-	float: left;
-	width: 100px;
-	height: auto;
-	vertical-align: middle;
-}
+
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -79,6 +82,7 @@ h1 {
 	background-color: rgb(211,211,211);
 	padding-top: 3px;
 	padding-bottom: 3px;
+	margin-bottom: 10px;
 }
 .but-what {
 	font-family: 'Fira Sans', sans-serif;
@@ -107,7 +111,7 @@ h1 {
 }
 .small-print {
 	font-family: 'Fira Sans', sans-serif;
-	/*font-size: 24px;*/
+	font-size: 16px;
 	color: rgb(105,105,105);
 }
 #hrx {
@@ -137,7 +141,7 @@ ul {
 
 .idea1 {
 	text-align: left;
-	margin-top: 10px;
+	margin-bottom: 10px;
 	padding: 40px;
 	/*width: 1300px;*/
 	font-family: Lucida, serif;
@@ -150,7 +154,7 @@ ul {
 	}
 .idea2 {
 	text-align: left;
-	margin-top: 10px;
+	margin-bottom: 10px;
 	padding: 40px;
 	/*width: 1300px;*/
 	font-family: Lucida, serif;
@@ -179,7 +183,7 @@ ul {
 aside {
 	float: right;
 	width: 24%;
-	margin-top: 10px;
+	/*margin-top: 10px;*/
 	/*margin-left: 5px;*/
 	padding: 15px 15px 100px 15px;
 	font-size: 1.5em;
@@ -188,30 +192,30 @@ aside {
 	border: 2px rgb(105,105,105) solid;
 }
 aside #aside-top {
-	float: left;
-	width: 7em;
-	height: 3em;
-	margin-top: 1em;
-	margin-left: 10%;
-	padding: .5em,.1em,.5em;
+	width: 200px;
+	height: auto;
+	margin: auto;
+	padding: 5px;
+	/*margin-top: 1em;*/
+	/*margin-left: 10%;*/
 	background-color: rgb(255,255,0);
 	border: 2px black solid;
-	font-size: 1.5em;
+	/*font-size: 1.5em;*/
 	font-style: italic;
-	line-height: 1em;
-	text-decoration: none;
+	/*line-height: 1em;*/
+	/*text-decoration: none;*/
 	color: rgb(59,59,59);
 }
 #aside-list {
 	clear: both;
-	padding-bottom: 100px;
+	padding-bottom: 20px;
 }
 .tick {
 	height: 50px;
 }
 aside div ul li {
 	text-align: left;
-	padding-top: 50px;
+	padding-top: 20px;
 }
 .email {
 	text-decoration: none;
@@ -224,9 +228,13 @@ footer {
 }
 #logo2 {
 	height: 140px;
-	padding: 50px,0;
+	padding: 50px 10px;
 	font-family: 'Fira Sans', sans-serif;
 	color: rgb(0,0,0);
 	font-size: 2em;
 	text-decoration: none;
 }
+section a#logo2:hover {
+	color: rgb(220,20,60);
+	background-color: rgb(240,240,240);
+	}
