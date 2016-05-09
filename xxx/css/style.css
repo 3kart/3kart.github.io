@@ -32,7 +32,7 @@ header {
 }
 nav {
 	margin-top: 20px;
-	margin-left: 37em;
+	margin-left: 260px;
 	
 }
 .nav1 {
@@ -87,6 +87,9 @@ h1 {
 	text-align: center;
 	margin: .8em 0;
 	clear: both;
+}
+p {
+	padding: .2em 0;
 }
 #Drunk_Old_Fart {
 	margin: 10px 0;
@@ -197,7 +200,7 @@ ul {
 }
 aside {
 	float: right;
-	width: 24%;
+	width: 26%;
 	/*margin-top: 10px;*/
 	/*margin-left: 5px;*/
 	padding: 15px 15px 100px 15px;
