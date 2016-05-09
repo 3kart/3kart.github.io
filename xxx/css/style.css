@@ -2,14 +2,20 @@
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans:400italic);
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans);
 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 body {
+	margin: auto;
 	color: rgb(105,105,105);
 	background-color: rgb(255,255,255);
 	font-family: 'Fira Sans', sans-serif;
 	text-align: center;
 	font-size: 16px;
 }
-#wrapper {
+.wrapper {
 	width: 1200px;
 	margin: auto;
 }
@@ -25,15 +31,16 @@ header {
 	width: 200px;
 }
 nav {
-	margin-top: 10px;
-	margin-left: 300px;
+	margin-top: 20px;
+	margin-left: 37em;
+	
 }
 .nav1 {
 	float: left;
-	/*display: inline-block;*/
+	/*display: inline;*/
 	/*vertical-align: middle;*/
 	width: 200px;
-	height: 80px;
+	height: auto;
 	margin-top: 20px;
 	margin-left: 20px;
 	/*margin-right: 20px;*/
@@ -55,6 +62,7 @@ a.nav1:hover {
 	width: 100px;
 	height: auto;
 	vertical-align: middle;
+	/*padding: .5em;*/
 }
 
 .clearfix:after {
@@ -70,14 +78,19 @@ a.nav1:hover {
 	color: rgb(0,0,0);
 	font-style: italic;
 	font-size: 2em;
+	padding: .5em 0;
 }
 h1 {
 	font-family: 'Boogaloo', cursive;
 	color: rgb(0,0,0);
 	font-size: 4em;
 	text-align: center;
-	margin: 0,0;
+	margin: .8em 0;
 	clear: both;
+}
+#Drunk_Old_Fart {
+	margin: 10px 0;
+	width: 1180px;
 }
 #slogan2 {
 	background-color: rgb(211,211,211);
@@ -88,6 +101,7 @@ h1 {
 .but-what {
 	font-family: 'Fira Sans', sans-serif;
 	font-size: 2em;
+	padding: .5em 0;
 }
 .box-text {
 	margin-top: .1em;
