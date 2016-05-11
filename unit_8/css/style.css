@@ -262,3 +262,31 @@ a#logo2:hover {
 	vertical-align: middle;
 	height: 4em;	
 }
+@media screen and (max-width: 1050px) {
+	body {
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 800px) {
+	#ideas {
+		float: none;
+		display: block;
+		width: 100%;
+	}
+	aside {
+		float: none;
+		display: block;
+		width: 100%;
+	}
+	#footer_smallprint {
+		width: 0;
+		height: 0;
+		color: rgb(255,255,255);
+	}
+	#why-not {
+		color: rgb(255,255,255);
+	}
+	footer section div p a .email {
+		color: rgb(255,255,255);
+	}
+}
