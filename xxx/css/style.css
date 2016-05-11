@@ -32,15 +32,13 @@ header {
 }
 nav {
 	margin-top: 20px;
-	margin-left: 260px;
+	margin-left: 220px;
 	
 }
 .nav1 {
-	float: left;
-	/*display: inline;*/
-	/*vertical-align: middle;*/
+	display: inline-block;
 	width: 200px;
-	height: auto;
+	height: 100px;
 	margin-top: 20px;
 	margin-left: 20px;
 	/*margin-right: 20px;*/
@@ -201,8 +199,7 @@ ul {
 aside {
 	float: right;
 	width: 26%;
-	/*margin-top: 10px;*/
-	/*margin-left: 5px;*/
+	margin-bottom: 10px;
 	padding: 15px 15px 100px 15px;
 	font-size: 1.5em;
 	color: rgb(0,0,0);
@@ -234,6 +231,24 @@ aside #aside-top {
 aside div ul li {
 	text-align: left;
 	padding-top: 20px;
+}
+aside #aside-bottom {
+	width: 220px;
+	height: auto;
+	margin: auto;
+	padding: 5px;
+	/*margin-top: 1em;*/
+	/*margin-left: 10%;*/
+	background-color: rgb(255,255,0);
+	border: 2px black solid;
+	/*font-size: 1.5em;*/
+	font-style: italic;
+	/*line-height: 1em;*/
+	/*text-decoration: none;*/
+	color: rgb(59,59,59);
+}
+aside div p {
+	padding: 20px 0;
 }
 .email {
 	text-decoration: none;
