@@ -396,3 +396,32 @@ a#logo2:hover {
 			height: 5em;
 		}
 }
+@media screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+		h1 {
+			font-size: 3em;
+		}
+		.slogan {
+			font-size: 1.9em;
+			padding: .2em 0;
+		}
+		#Drunk_Old_Fart {
+			margin: 0 auto;
+			height: 205px;
+			width: auto;
+		}
+		.but-what {
+			font-size: 1.9em;
+			padding: .2em 0;
+		}
+		.image3 {
+			padding: 0;
+			height: 20em;
+		}
+		.image4 {
+			padding: 0;
+			height: 11.5em;
+		}
+		.image5 {
+			height: 5em;
+		}
+}
