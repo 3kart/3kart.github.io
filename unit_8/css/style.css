@@ -26,6 +26,7 @@ header {
 #logo {
 	float: left;
 	width: 17%;
+	min-width: 120px;
 }
 nav {
 	margin: 0 auto;
@@ -94,6 +95,7 @@ p {
 .but-what {
 	font-family: 'Fira Sans', sans-serif;
 	font-size: 2em;
+	line-height: 1.5em;
 	padding: .5em 0;
 }
 .box-text {
@@ -168,10 +170,12 @@ ul {
 	vertical-align: middle;
 	box-shadow: 5px 5px 3px #888888;
 	height: 8em;
+	margin-bottom: .5em;
 }
 .image2{
 	vertical-align: middle;
-	height: 8em;	
+	height: 8em;
+	margin-bottom: .5em;	
 }
 .image3 {
 	padding-left: 10%;
@@ -207,6 +211,12 @@ aside #aside-top {
 	border: 2px black solid;
 	font-style: italic;
 	color: rgb(59,59,59);
+}
+.graphic2 {
+	float: left;
+	width: 4.5em;
+	height: auto;
+	vertical-align: middle;
 }
 #aside-list {
 	clear: both;
@@ -258,7 +268,7 @@ a#logo2:hover {
 	color: rgb(220,20,60);
 	background-color: rgb(240,240,240);
 	}
-.graphic2{
+.graphic3 {
 	vertical-align: middle;
 	height: 4em;	
 }
@@ -268,6 +278,13 @@ a#logo2:hover {
 	}
 }
 @media screen and (max-width: 800px) {
+	#logo {
+		float: none;
+	}
+	.nav1 {
+		margin-left: 0;
+		font-size: 1.25em;
+	}
 	#ideas {
 		float: none;
 		display: block;
@@ -277,6 +294,9 @@ a#logo2:hover {
 		float: none;
 		display: block;
 		width: 100%;
+	}
+	aside div p {
+		font-size: 1em;
 	}
 	#footer_smallprint {
 		width: 0;
@@ -289,4 +309,57 @@ a#logo2:hover {
 	footer section div p a .email {
 		color: rgb(255,255,255);
 	}
+}
+@media screen and (max-width: 500px) {
+		#logo {
+			float: left;
+		}
+		nav {
+			float: right;
+		}
+		.nav1 {
+			display: block;
+			height: 1.5em;
+			margin: .3em auto;
+			font-size: 1.4em;
+		}
+		.graphic1 {
+			width: 0;
+		}
+		h1 {
+			font-size: 3.5em;
+			margin: .5em .2em;
+		}
+		.image4 {
+		padding-left: 2%;
+		}
+}
+@media screen and (max-width: 430px) {
+		h1 {
+			font-size: 3em;
+		}
+		.slogan {
+			font-size: 1.9em;
+			padding: .2em 0;
+		}
+		#Drunk_Old_Fart {
+			margin: 0 auto;
+			height: 205px;
+			width: auto;
+		}
+		.but-what {
+			font-size: 1.9em;
+			padding: .2em 0;
+		}
+		.image3 {
+			padding: 0;
+			height: 20em;
+		}
+		.image4 {
+			padding: 0;
+			height: 11.5em;
+		}
+		.image5 {
+			height: 5em;
+		}
 }
