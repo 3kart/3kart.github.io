@@ -310,6 +310,39 @@ a#logo2:hover {
 		color: rgb(255,255,255);
 	}
 }
+@media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) {
+	#logo {
+		float: none;
+	}
+	.nav1 {
+		margin-left: 0;
+		font-size: 1.25em;
+	}
+	#ideas {
+		float: none;
+		display: block;
+		width: 100%;
+	}
+	aside {
+		float: none;
+		display: block;
+		width: 100%;
+	}
+	aside div p {
+		font-size: 1em;
+	}
+	#footer_smallprint {
+		width: 0;
+		height: 0;
+		color: rgb(255,255,255);
+	}
+	#why-not {
+		color: rgb(255,255,255);
+	}
+	footer section div p a .email {
+		color: rgb(255,255,255);
+	}
+}
 @media screen and (max-width: 500px) {
 		#logo {
 			float: left;
