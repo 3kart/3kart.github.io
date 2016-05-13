@@ -73,7 +73,7 @@ a.nav1:hover {
 	padding: .5em 0;
 }
 h1 {
-	font-family: 'Boogaloo', cursive;
+	font-family: "Boogaloo", cursive;
 	color: rgb(0,0,0);
 	font-size: 4em;
 	text-align: center;
@@ -128,52 +128,55 @@ ul {
 	list-style-type: none;
 }
 .float1 {
-	float: left;
-	padding-top: 1%;
-	padding-bottom: 1%;
+	margin: 0 auto;
+	padding: 1% 0 1% 20%;
 }
 
 .afterfloat {
 	clear: both;
-	padding-top: 1%;
+	padding: 1% 0 1% 13%;
 }
 
 #ideas {
-	float: left;
-	width: 72%;
+	/*float: left;*/
+	width: 100%;
 }
 
 .idea1 {
 	text-align: left;
-	margin-bottom: 1%;
-	padding: 3.5% 3.5% 3.5% 5%;
+	margin-bottom: .5%;
+	padding: 1%;
 	font-family: Lucida, serif;
 	font-size: 1.5em;
 	color: rgb(220,20,60);
 	background-size: cover;
 	background-color: rgb(240,240,240);
 	border: 2px rgb(105,105,105) solid;
+	width: 49%;
+	display: inline-block;
 	}
 .idea2 {
 	text-align: left;
-	margin-bottom: 1%;
-	padding: 3.5% 3.5% 3.5% 5%;
+	margin-bottom: .5%;
+	padding: 1%;
 	font-family: Lucida, serif;
 	font-size: 1.5em;
 	color: rgb(220,20,60);
 	background-size: cover;
 	background-color: rgb(220,220,200);
 	border: 2px rgb(105,105,105) solid;
+	width: 49%;
+	display: inline-block;
 }
 
 .image1{
-	vertical-align: middle;
+	display: block;
 	box-shadow: 5px 5px 3px #888888;
 	height: 8em;
 	margin-bottom: .5em;
 }
 .image2{
-	vertical-align: middle;
+	display: block;
 	height: 8em;
 	margin-bottom: .5em;	
 }
@@ -182,19 +185,37 @@ ul {
 	height: 22em;
 }
 .image4 {
-	padding-left: 10%;
-	height: 16em;
+	padding-left: 2%;
+	height: 15em;
 }
-.image5{
-	vertical-align: middle;
-	height: 10em;	
+.image5 {
+	float: left;
+	height: 6em;	
+}
+.image6 {
+	display: block;
+	box-shadow: 5px 5px 3px #888888;
+	height: 7em;
+	margin-left: .1em;
+	margin-bottom: .5em;
+}
+.image7 {
+	padding-left: 2%;
+	height: 17.5em;
+}
+.image8 {
+	display: block;
+	box-shadow: 5px 5px 3px #888888;
+	height: 7.37em;
+	margin-left: .1em;
+	margin-bottom: .5em;
 }
 .accentuate {
 	font-weight: bold;
 }
 aside {
-	float: right;
-	width: 26%;
+	display: block;
+	width: 100%;
 	margin-bottom: 1%;
 	padding: 1.5% 1.5% 10% 2%;
 	font-size: 1.5em;
@@ -273,8 +294,18 @@ a#logo2:hover {
 	height: 4em;	
 }
 @media screen and (max-width: 1050px) {
-	body {
-		font-size: 12px;
+	.nav1 {
+		font-size: 1em;
+	}
+
+	.idea1, .idea2, aside {
+		font-size: 1.2em;
+	}
+	h1 {
+		font-size: 3em;
+	}
+	.slogan, .but-what, #why-not, #logo2 {
+		font-size: 1.5em;
 	}
 }
 @media screen and (max-width: 800px) {
@@ -283,18 +314,19 @@ a#logo2:hover {
 	}
 	.nav1 {
 		margin-left: 0;
-		font-size: 1.25em;
+		font-size: .93em;
 	}
-	#ideas {
+	.idea1, .idea2, aside {
 		float: none;
 		display: block;
 		width: 100%;
+		font-size: 1.5em;
 	}
-	aside {
-		float: none;
-		display: block;
-		width: 100%;
+	.image5 {
+		float: right;
+		height: 7em;
 	}
+	
 	aside div p {
 		font-size: 1em;
 	}
@@ -320,11 +352,18 @@ a#logo2:hover {
 			width: 0;
 		}
 		h1 {
-			font-size: 3.5em;
 			margin: .5em .2em;
 		}
+		.image3 {
+			padding-left: 2%;
+		}
 		.image4 {
-		padding-left: 2%;
+			padding-left: 0;
+			height: 13em;
+		}
+			
+		.image5 {
+			height: 5em;
 		}
 }
 @media screen and (max-width: 430px) {
@@ -353,6 +392,6 @@ a#logo2:hover {
 			height: 11.5em;
 		}
 		.image5 {
-			height: 5em;
+			height: 4em;
 		}
 }
