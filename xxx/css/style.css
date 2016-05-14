@@ -105,16 +105,20 @@ p {
 	color: rgb(59,59,59);
 	background-color: rgb(255,255,0);
 	border: 2px rgb(59,59,59) solid;
+	text-decoration: none;
 }
-
+a.box-text:hover {
+	color: rgb(220,20,60);
+}
 #why-not {
 	font-family: 'Fira Sans', sans-serif;
-	font-size: 2em;
+	font-size: 1.5em;
 	font-style: italic;
 	color: rgb(0,0,0);
+	padding-top: 1em;
 }
 .small-print {
-	/*font-family: 'Fira Sans', sans-serif;*/
+	font-family: 'Fira Sans', sans-serif;
 	/*font-size: 16px;*/
 	/*color: rgb(105,105,105);*/
 }
@@ -217,8 +221,8 @@ aside {
 	display: block;
 	width: 100%;
 	margin-bottom: 1%;
-	padding: 1.5% 1.5% 10% 2%;
-	font-size: 1.5em;
+	padding: 1.5% 1.5% 5% 2%;
+	/*font-size: 1.5em;*/
 	color: rgb(0,0,0);
 	background-color: rgb(211,211,211);
 	border: 2px rgb(105,105,105) solid;
@@ -231,6 +235,7 @@ aside #aside-top {
 	background-color: rgb(255,255,0);
 	border: 2px black solid;
 	font-style: italic;
+	font-size: 1.5em;
 	color: rgb(59,59,59);
 }
 .graphic2 {
@@ -241,7 +246,8 @@ aside #aside-top {
 }
 #aside-list {
 	clear: both;
-	padding-bottom: 1%;
+	/*padding-bottom: 1em;*/
+	margin-bottom: 2em;
 }
 .tick {
 	height: 1.5em;
@@ -249,6 +255,7 @@ aside #aside-top {
 aside div ul li {
 	text-align: left;
 	padding-top: 1.5em;
+	font-size: 1.5em;
 }
 aside #aside-bottom {
 	width: 10em;
@@ -258,12 +265,13 @@ aside #aside-bottom {
 	background-color: rgb(255,255,0);
 	border: 2px black solid;
 	font-style: italic;
+	font-size: 1.5em;
 	color: rgb(59,59,59);
 }
 aside div p {
 	padding: 1.5em .5em;
 	text-align: center;
-	font-size: .8em;
+	font-size: 1.5em;
 }
 .email {
 	text-decoration: none;
