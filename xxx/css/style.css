@@ -395,10 +395,10 @@ a#logo2:hover {
 }
 @media screen and (max-width: 430px) {
 		h1 {
-			font-size: 3em;
+			font-size: 2.5em;
 		}
 		.slogan {
-			font-size: 1.9em;
+			font-size: 1.5em;
 			padding: .2em 0;
 		}
 		#Drunk_Old_Fart1 {
@@ -412,8 +412,11 @@ a#logo2:hover {
 			display: none;
 		}
 		.but-what {
-			font-size: 1.9em;
+			font-size: 1.5em;
 			padding: .2em 0;
+		}
+		.float1 {
+			padding: 1% 0 1% 5%;
 		}
 		.image3 {
 			padding: 0;
@@ -421,9 +424,15 @@ a#logo2:hover {
 		}
 		.image4 {
 			padding: 0;
-			height: 11.5em;
+			height: 9em;
 		}
 		.image5 {
 			height: 4em;
+		}
+		.image7 {
+			height: 10em;
+		}
+		aside {
+			font-size: .8em;
 		}
 }
