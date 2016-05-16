@@ -25,7 +25,7 @@ header {
 }
 #logo {
 	float: left;
-	width: 17%;
+	width: 10%;
 	min-width: 120px;
 }
 nav {
@@ -83,9 +83,17 @@ h1 {
 p {
 	padding: .2em 0;
 }
-#Drunk_Old_Fart {
+#Drunk_Old_Fart1 {
 	margin: .1% 0;
-	width: 99.8%;
+	width: 25.02%;
+}
+#Drunk_Old_Fart2 {
+	margin: .1% 0;
+	width: 49.48%;
+}
+#Drunk_Old_Fart3 {
+	margin: .1% 0;
+	width: 25.5%;
 }
 #slogan2 {
 	background-color: rgb(211,211,211);
@@ -106,6 +114,7 @@ p {
 	background-color: rgb(255,255,0);
 	border: 2px rgb(59,59,59) solid;
 	text-decoration: none;
+	line-height: 2em;
 }
 a.box-text:hover {
 	color: rgb(220,20,60);
@@ -222,7 +231,6 @@ aside {
 	width: 100%;
 	margin-bottom: 1%;
 	padding: 1.5% 1.5% 5% 2%;
-	/*font-size: 1.5em;*/
 	color: rgb(0,0,0);
 	background-color: rgb(211,211,211);
 	border: 2px rgb(105,105,105) solid;
@@ -302,7 +310,7 @@ a#logo2:hover {
 	height: 4em;	
 }
 @media screen and (max-width: 1050px) {
-	.nav1 {
+	.nav1, aside #aside-top, aside #aside-bottom, aside div p{
 		font-size: 1em;
 	}
 
@@ -315,6 +323,9 @@ a#logo2:hover {
 	.slogan, .but-what, #why-not, #logo2 {
 		font-size: 1.5em;
 	}
+	.image4, .image7 {
+		padding-left: 0;
+	}
 }
 @media screen and (max-width: 800px) {
 	#logo {
@@ -324,7 +335,7 @@ a#logo2:hover {
 		margin-left: 0;
 		font-size: .93em;
 	}
-	.idea1, .idea2, aside {
+	.idea1, .idea2 {
 		float: none;
 		display: block;
 		width: 100%;
@@ -335,9 +346,6 @@ a#logo2:hover {
 		height: 7em;
 	}
 	
-	aside div p {
-		font-size: 1em;
-	}
 	#footer_smallprint {
 		display: none;
 	}
@@ -362,6 +370,17 @@ a#logo2:hover {
 		h1 {
 			margin: .5em .2em;
 		}
+		#Drunk_Old_Fart1 {
+			margin: 0 auto;
+			width: 33.58%;
+		}
+		#Drunk_Old_Fart2 {
+			margin: 0 auto;
+			width: 66.42%;
+		}
+		#Drunk_Old_Fart3 {
+			display: none;
+		}
 		.image3 {
 			padding-left: 2%;
 		}
@@ -382,10 +401,15 @@ a#logo2:hover {
 			font-size: 1.9em;
 			padding: .2em 0;
 		}
-		#Drunk_Old_Fart {
+		#Drunk_Old_Fart1 {
+			display: none;
+		}
+		#Drunk_Old_Fart2 {
 			margin: 0 auto;
-			height: 205px;
-			width: auto;
+			width: 99%;
+		}
+		#Drunk_Old_Fart3 {
+			display: none;
 		}
 		.but-what {
 			font-size: 1.9em;
