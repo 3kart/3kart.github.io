@@ -214,7 +214,7 @@ ul {
 }
 .image7 {
 	padding-left: 2%;
-	height: 17.5em;
+	height: 17em;
 }
 .image8 {
 	display: block;
@@ -341,6 +341,17 @@ a#logo2:hover {
 		width: 100%;
 		font-size: 1.5em;
 	}
+	.image3 {
+		height: auto;
+		width: 95%;
+		max-width: 20em;
+		padding-left: 5%;
+	}
+	.image4, .image7 {
+		height: auto;
+		width: 98%;
+		padding-left: 1%;
+	}
 	.image5 {
 		float: right;
 		height: 7em;
@@ -381,12 +392,8 @@ a#logo2:hover {
 		#Drunk_Old_Fart3 {
 			display: none;
 		}
-		.image3 {
-			padding-left: 2%;
-		}
-		.image4 {
+		.image4, .image7 {
 			padding-left: 0;
-			height: 13em;
 		}
 			
 		.image5 {
@@ -420,17 +427,9 @@ a#logo2:hover {
 		}
 		.image3 {
 			padding: 0;
-			height: 20em;
-		}
-		.image4 {
-			padding: 0;
-			height: 9em;
 		}
 		.image5 {
 			height: 4em;
-		}
-		.image7 {
-			height: 10em;
 		}
 		aside {
 			font-size: .8em;
