@@ -162,7 +162,7 @@ ul {
 	font-family: Lucida, serif;
 	font-size: 1.5em;
 	color: rgb(220,20,60);
-	background-size: cover;
+	/*background-size: cover;*/
 	background-color: rgb(240,240,240);
 	border: 2px rgb(105,105,105) solid;
 	width: 49%;
@@ -175,13 +175,25 @@ ul {
 	font-family: Lucida, serif;
 	font-size: 1.5em;
 	color: rgb(220,20,60);
-	background-size: cover;
+	/*background-size: cover;*/
 	background-color: rgb(220,220,200);
 	border: 2px rgb(105,105,105) solid;
 	width: 49%;
 	display: inline-block;
 }
-
+.idea3 {
+	text-align: left;
+	margin-bottom: .5%;
+	padding: 1%;
+	font-family: Lucida, serif;
+	font-size: 1.5em;
+	color: rgb(220,20,60);
+	/*background-size: cover;*/
+	background-color: rgb(235,235,215);
+	border: 2px rgb(105,105,105) solid;
+	width: 49%;
+	display: inline-block;
+}
 .image1{
 	display: block;
 	box-shadow: 5px 5px 3px #888888;
@@ -214,7 +226,7 @@ ul {
 }
 .image7 {
 	padding-left: 2%;
-	height: 17em;
+	height: 17.55em;
 }
 .image8 {
 	display: block;
@@ -232,7 +244,7 @@ aside {
 	margin-bottom: 1%;
 	padding: 1.5% 1.5% 5% 2%;
 	color: rgb(0,0,0);
-	background-color: rgb(211,211,211);
+	background-color: rgb(240,240,240);
 	border: 2px rgb(105,105,105) solid;
 }
 aside #aside-top {
