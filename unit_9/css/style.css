@@ -290,6 +290,9 @@ a#logo2:hover {
 		float: right;
 		height: 7em;
 	}
+	#ACTION2 p {
+		text-align: justify;
+	}
 }
 @media screen and (max-width: 500px) {
 	.nav1 {
