@@ -1,0 +1,341 @@
+@import url(https://fonts.googleapis.com/css?family=Boogaloo);
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400italic);
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans);
+@import url(https://fonts.googleapis.com/css?family=PT+Serif);
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: rgb(255,255,255);
+	color: rgb(105,105,105);
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 16px;
+	margin: auto;
+	text-align: center;
+}
+.wrapper {
+	margin: auto;
+	max-width: 1200px;
+}
+.clearfix:after {
+	clear: both;
+	content: "";
+	display: block;
+	font-size: 0;	
+	height: 0;
+	visibility: hidden;
+}
+header {
+	background-color: rgb(211,211,211);
+	padding: 1%;	
+}
+#logo {
+	float: left;
+	width: 12%;
+	min-width: 150px;
+}
+nav {
+	margin: 0 auto;
+}
+.nav1 {
+	background-color: rgb(255,255,0);
+	border: 2px black solid;
+	color: rgb(59,59,59);
+	display: inline-block;
+	font-size: 1.4em;
+	font-style: italic;
+	margin-left: 1em;
+	padding: .25em;
+	text-decoration: none;
+	width: 10em;
+	
+}
+a.nav1:hover {
+	color: rgb(220,20,60);
+}
+
+.graphic1 {
+	float: left;
+	width: 4.5em;
+}
+h1 {
+	clear: both;
+	color: rgb(0,0,0);
+	font-family: "Boogaloo", cursive;
+	font-size: 4em;
+	font-weight: bold;
+	padding: .8em .1em;
+	text-align: center;
+}
+h2 {
+	color: rgb(0,0,0);
+	font-family: 'Fira Sans', sans-serif;
+	font-style: italic;
+	font-size: 2em;
+	line-height: 1.2em;
+	padding: .3em 0;
+}
+h3 {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 2em;
+	line-height: 1.5em;
+	padding: .3em 0;
+}
+p {
+	font-family: 'PT Serif', serif;
+	line-height: normal;
+	padding: .2em;
+}
+#Drunk_Old_Fart1 {
+	margin: .1% 0;
+	width: 25.02%;
+}
+#Drunk_Old_Fart2 {
+	margin: .1% 0;
+	width: 49.48%;
+}
+#Drunk_Old_Fart3 {
+	margin: .1% 0;
+	width: 25.5%;
+}
+#SLOGAN {
+	background-color: rgb(211,211,211);
+	margin-bottom: 1%;
+}
+.box-text {
+	background-color: rgb(255,255,0);
+	border: 2px rgb(59,59,59) solid;
+	color: rgb(59,59,59);
+	line-height: 2em;
+	margin-top: .1em;
+	margin-bottom: .1em;
+	padding: .1em .1em 0 .1em;
+	text-decoration: none;
+}
+a.box-text:hover {
+	color: rgb(220,20,60);
+}
+.idea1 {
+	border: 2px rgb(105,105,105) solid;
+	color: rgb(220,20,60);
+	display: inline-block;
+	font-size: 1.5em;
+	margin-bottom: .5%;
+	padding: 1%;
+	text-align: left;
+	width: 49.5%;
+}
+#personal, #funny {
+	background-color: rgb(240,240,240);
+}
+#creative, #unique {
+	background-color: rgb(220,220,200);
+}
+#memorable, #serious {
+	background-color: rgb(235,235,215);
+}
+.take_this {
+	margin: 0 auto;
+	padding: 1% 0 1% 20%;
+}
+.accentuate {
+	font-weight: bold;
+}
+.graphic2 {
+	float: left;
+	height: 6em;	
+}
+.image1{
+	box-shadow: 5px 5px 3px rgb(136,136,136);
+	display: block;
+	height: 8em;
+	margin: .5em 0;
+}
+.image2{
+	display: block;
+	height: 8em;
+	margin: .5em 0;	
+}
+.image3 {
+	height: 22em;
+	padding-left: 10%;
+}
+.image4 {
+	padding-left: 2%;
+	height: 15em;
+}
+.image5 {
+	box-shadow: 5px 5px 3px rgb(136,136,136);
+	display: block;
+	height: 7.37em;
+	margin-left: .1em;
+	margin-bottom: .5em;
+}
+.image6 {
+	height: 19.26em;
+	padding-left: 2%;
+}
+.image7 {
+	height: 25.77em;
+	padding-left: 10%;
+}
+.arrow-top {
+	display: block;
+	height: 2em;
+}
+.arrow-verytop {
+	display: block;
+	height: 3.5em;
+}
+#ACTION1, #ACTION2 {
+	background-color: rgb(240,240,240);
+	border: 2px rgb(105,105,105) solid;
+	color: rgb(0,0,0);
+	display: block;
+	margin: 0 .25% .5%;
+	padding: 1.5% 1.5% 5% 2%;
+	width: 99.5%;
+}
+#ACTION1-top, #ACTION2-top {
+	background-color: rgb(255,255,0);
+	border: 2px black solid;
+	color: rgb(59,59,59);
+	font-size: 1.5em;
+	font-style: italic;
+	height: auto;
+	margin: auto;
+	padding: .25em;
+	width: 10em;
+}
+.tick {
+	height: 1.5em;
+}
+#ACTION1 ul li, #ACTION2 p {
+	text-align: center;
+	padding-top: 1.5em;
+	font-size: 1.5em;
+}
+.email {
+	text-decoration: none;
+	color: rgb(220,20,60);
+}
+footer {
+	clear: both;
+	margin-top: 1%;
+	background-color: rgb(211,211,211);
+	padding: 1%;
+}
+#logo2 {
+	padding: 3% 1%;
+	font-family: 'Fira Sans', sans-serif;
+	color: rgb(0,0,0);
+	font-size: 2em;
+	text-decoration: none;
+}
+a#logo2:hover {
+	color: rgb(220,20,60);
+	background-color: rgb(240,240,240);
+	}
+.graphic3 {
+	vertical-align: middle;
+	height: 4em;
+}
+@media screen and (max-width: 1050px) {
+	.nav1, #ACTION1-top, #ACTION2-top, #ACTION1 ul li, #ACTION2 p {
+		font-size: 1em;
+	}
+
+	.idea1, .idea2, aside {
+		font-size: 1.2em;
+	}
+	h1 {
+		font-size: 3em;
+	}
+	h2, h3, #logo2 {
+		font-size: 1.5em;
+	}
+	.image4, .image6 {
+		padding-left: 0;
+	}
+}
+@media screen and (max-width: 800px) {
+	#logo {
+		float: none;
+	}
+	.nav1 {
+		margin-left: 0;
+		font-size: .93em;
+	}
+	.idea1 {
+		float: none;
+		display: block;
+		width: 100%;
+		font-size: 1.5em;
+	}
+	.image3 {
+		height: auto;
+		width: 95%;
+		max-width: 20em;
+		padding-left: 5%;
+	}
+	.image4, .image6, .image7 {
+		height: auto;
+		width: 98%;
+		padding-left: 1%;
+	}
+	.graphic2 {
+		float: right;
+		height: 7em;
+	}
+}
+@media screen and (max-width: 500px) {
+	.nav1 {
+		height: 7em;
+		width: 6em;
+	}
+	.graphic1 {
+		float: none;
+	}
+	#Drunk_Old_Fart1 {
+		margin: 0 auto;
+		width: 33.58%;
+	}
+	#Drunk_Old_Fart2 {
+		margin: 0 auto;
+		width: 66.42%;
+	}
+	#Drunk_Old_Fart3 {
+		display: none;
+	}
+	.take_this {
+		padding: 1% 0 1% 10%;
+	}
+	#ACTION1-top, #ACTION2-top {
+		width: 6em;
+	}
+}
+@media screen and (max-width: 430px) {
+	h1 {
+		font-size: 2.5em;
+		padding: .5em .1em;
+	}
+	h2, h3 {
+		padding: .2em;
+	}
+	#Drunk_Old_Fart1 {
+		display: none;
+	}
+	#Drunk_Old_Fart2 {
+		margin: 0 auto;
+		width: 99%;
+	}
+	#Drunk_Old_Fart3 {
+		display: none;
+	}
+	.graphic2 {
+		height: 4em;
+	}
+}
