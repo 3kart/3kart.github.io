@@ -102,7 +102,7 @@ p {
 	margin: .1% 0;
 	width: 25.5%;
 }
-#SLOGAN {
+#slogan {
 	background-color: rgb(211,211,211);
 	margin-bottom: 1%;
 }
@@ -192,7 +192,7 @@ a.box-text:hover {
 	display: block;
 	height: 3.5em;
 }
-#ACTION1, #ACTION2 {
+#action1, #action2 {
 	background-color: rgb(240,240,240);
 	border: 2px rgb(105,105,105) solid;
 	color: rgb(0,0,0);
@@ -201,7 +201,7 @@ a.box-text:hover {
 	padding: 1.5% 1.5% 5% 2%;
 	width: 99.5%;
 }
-#ACTION1-top, #ACTION2-top {
+#action1-top, #action2-top {
 	background-color: rgb(255,255,0);
 	border: 2px black solid;
 	color: rgb(59,59,59);
@@ -215,7 +215,7 @@ a.box-text:hover {
 .tick {
 	height: 1.5em;
 }
-#ACTION1 ul li, #ACTION2 p {
+#action1 ul li, #action2 p {
 	text-align: center;
 	padding-top: 1.5em;
 	font-size: 1.5em;
@@ -246,7 +246,7 @@ a#logo2:hover {
 	height: 4em;
 }
 @media screen and (max-width: 1050px) {
-	.nav1, #ACTION1-top, #ACTION2-top, #ACTION1 ul li, #ACTION2 p {
+	.nav1, #action1-top, #action2-top, #action1 ul li, #action2 p {
 		font-size: 1em;
 	}
 
@@ -295,7 +295,7 @@ a#logo2:hover {
 		float: right;
 		height: 7em;
 	}
-	#ACTION2 p {
+	#action2 p {
 		text-align: justify;
 	}
 }
@@ -321,7 +321,7 @@ a#logo2:hover {
 	.take_this {
 		padding: 1% 0 1% 8%;
 	}
-	#ACTION1-top, #ACTION2-top {
+	#action1-top, #action2-top {
 		width: 6em;
 	}
 }
