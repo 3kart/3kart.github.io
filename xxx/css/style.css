@@ -68,7 +68,7 @@ h1 {
 	font-family: "Boogaloo", cursive;
 	font-size: 4em;
 	font-weight: bold;
-	padding: .8em .1em;
+	padding: .8em .2em;
 	text-align: center;
 }
 h2 {
@@ -77,13 +77,13 @@ h2 {
 	font-style: italic;
 	font-size: 2em;
 	line-height: 1.2em;
-	padding: .3em 0;
+	padding: .3em .2em;
 }
 h3 {
 	font-family: 'Fira Sans', sans-serif;
 	font-size: 2em;
 	line-height: 1.5em;
-	padding: .3em 0;
+	padding: .3em .2em;
 }
 p {
 	font-family: 'PT Serif', serif;
