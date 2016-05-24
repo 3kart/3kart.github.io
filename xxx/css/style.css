@@ -53,7 +53,7 @@ nav {
 	width: 10em;
 	
 }
-a.nav1:hover, footer section a #action2-top:hover {
+a.nav1:hover, #action3:hover {
 	background-color: rgb(255,255,150);
 	color: rgb(220,20,60);
 }
@@ -227,7 +227,7 @@ footer a .arrow-verytop {
 	padding: .25em;
 	width: 10em;
 }
-footer section a #action3 {
+footer section a {
 	text-decoration: none;
 }
 .tick {
@@ -382,6 +382,9 @@ footer .graphic4 {
 	}
 }
 @media screen and (max-width: 500px) {
+	h1 .graphic4 {
+		padding: 0 .2em;
+	}
 	.nav1 {
 		height: 7em;
 		width: 6em;
@@ -406,8 +409,19 @@ footer .graphic4 {
 	#action1-top, #action2-top {
 		width: 6em;
 	}
+	#action3 {
+		font-size: 1em;
+	}
 	.quote-pic2 {
 		height: 8em;
+	}
+	footer section p {
+		margin-top: 6em;
+	}
+	footer section a div .graphic1 {
+		float: none;
+		display: block;
+		margin: 0 auto .3em;
 	}
 }
 @media screen and (max-width: 430px) {
