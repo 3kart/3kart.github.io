@@ -295,7 +295,7 @@ footer .graphic4 {
 	text-align: left;
 	width: 99%;
 }
-.quote-pic {
+.quote-pic, .quote-pic3 {
 	box-shadow: 5px 5px 3px rgb(136,136,136);
 	float: right;
 	height: 15em;
@@ -445,7 +445,13 @@ footer .graphic4 {
 	.graphic2 {
 		height: 4em;
 	}
-	.quote-pic {
+	.quote-pic, .quote-pic3 {
 		height: 12.5em;
 	}
+	.quote-pic3 {
+		float: none;
+		display: block;
+		margin: 0 auto;
+	}
+
 }
