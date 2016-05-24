@@ -53,7 +53,7 @@ nav {
 	width: 10em;
 	
 }
-a.nav1:hover {
+a.nav1:hover, footer section a #action2-top:hover {
 	background-color: rgb(255,255,150);
 	color: rgb(220,20,60);
 }
@@ -85,6 +85,11 @@ h3 {
 	line-height: 1.5em;
 	padding: .3em .2em;
 }
+h4 {
+	color: rgb(0,0,0);
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 3em;
+}
 p {
 	font-family: 'PT Serif', serif;
 	line-height: normal;
@@ -114,12 +119,17 @@ p {
 	line-height: 2em;
 	margin-top: .1em;
 	margin-bottom: .1em;
+	/*max-width: 1000px;*/
 	padding: .1em .1em 0 .1em;
 	text-decoration: none;
 }
 a.box-text:hover {
 	background-color: rgb(255,255,150);
 	color: rgb(220,20,60);
+}
+main .box-text {
+	margin:	.1em auto;
+	max-width: 1000px;
 }
 .idea1 {
 	border: 2px rgb(105,105,105) solid;
@@ -131,13 +141,13 @@ a.box-text:hover {
 	text-align: left;
 	width: 49.5%;
 }
-#personal, #funny {
+#personal, #funny, #Mona-Lisa, #art-gallery, #warhol {
 	background-color: rgb(240,240,240);
 }
-#creative, #unique {
+#creative, #unique, #race-winner, #snakes-ladders {
 	background-color: rgb(220,220,200);
 }
-#memorable, #serious {
+#memorable, #serious, #album-cover, #pcc {
 	background-color: rgb(235,235,215);
 }
 .take_this {
@@ -151,13 +161,13 @@ a.box-text:hover {
 	float: left;
 	height: 6em;	
 }
-.image1{
+.image1 {
 	box-shadow: 5px 5px 3px rgb(136,136,136);
 	display: block;
 	height: 8em;
 	margin: .5em 0;
 }
-.image2{
+.image2 {
 	display: block;
 	height: 8em;
 	margin: .5em 0;	
@@ -193,6 +203,10 @@ a.box-text:hover {
 	display: block;
 	height: 3.5em;
 }
+footer a .arrow-verytop {
+	float: left;
+	height: 5em;
+}
 #action1, #action2 {
 	background-color: rgb(240,240,240);
 	border: 2px rgb(105,105,105) solid;
@@ -202,7 +216,7 @@ a.box-text:hover {
 	padding: 1.5% 1.5% 5% 2%;
 	width: 99.25%;
 }
-#action1-top, #action2-top {
+#action1-top, #action2-top, #action3 {
 	background-color: rgb(255,255,0);
 	border: 2px black solid;
 	color: rgb(59,59,59);
@@ -212,6 +226,9 @@ a.box-text:hover {
 	margin: auto;
 	padding: .25em;
 	width: 10em;
+}
+footer section a #action3 {
+	text-decoration: none;
 }
 .tick {
 	height: 1.5em;
@@ -246,6 +263,53 @@ a#logo2:hover {
 	vertical-align: middle;
 	height: 4em;
 }
+.graphic4 {
+	display: inline-block;
+	height: 2.5em;
+	padding: 0 .5em;
+	vertical-align: middle;
+}
+footer .graphic4 {
+	float: right;
+	height: 6em;
+}
+#footer-info {
+	margin: auto;
+}
+#main1 {
+	/*margin-top: 2em;*/
+}
+#who-is {
+	height: 30em;
+	margin: 1em auto;
+	padding: 2em;
+}
+.quote-box {
+	border: 2px rgb(105,105,105) solid;
+	color: rgb(220,20,60);
+	display: inline-block;
+	font-size: 1.5em;
+	margin: .25% auto;
+	max-width: 1000px;
+	padding: .5em;
+	text-align: left;
+	width: 99%;
+}
+.quote-pic {
+	box-shadow: 5px 5px 3px rgb(136,136,136);
+	float: right;
+	height: 15em;
+	margin: 0 0 .3em .3em;
+}
+.quote-pic2 {
+	float: right;
+	height: 15em;
+	margin: 0 0 .3em .3em;
+}
+.quote {
+	font-style: italic;
+}
+
 @media screen and (max-width: 1050px) {
 	.nav1, #action1-top, #action2-top, #action1 ul li, #action2 p {
 		font-size: 1em;
@@ -262,6 +326,9 @@ a#logo2:hover {
 	}
 	.image4, .image6 {
 		padding-left: 0;
+	}
+	main .box-text {
+		width: 99%;
 	}
 }
 @media screen and (max-width: 800px) {
@@ -300,6 +367,19 @@ a#logo2:hover {
 	#action2 p {
 		text-align: justify;
 	}
+	#who-is {
+		height: auto;
+		max-width: 570px;
+		padding: 0;
+		width: 98%;
+	}
+	main .box-text {
+		line-height: 1.3em;
+		padding: .3em .5em .3em .5em;
+	}
+	.quote-box {
+		font-size: 1em;
+	}
 }
 @media screen and (max-width: 500px) {
 	.nav1 {
@@ -326,6 +406,9 @@ a#logo2:hover {
 	#action1-top, #action2-top {
 		width: 6em;
 	}
+	.quote-pic2 {
+		height: 8em;
+	}
 }
 @media screen and (max-width: 430px) {
 	h1 {
@@ -347,5 +430,8 @@ a#logo2:hover {
 	}
 	.graphic2 {
 		height: 4em;
+	}
+	.quote-pic {
+		height: 12.5em;
 	}
 }
