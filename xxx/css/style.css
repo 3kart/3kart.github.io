@@ -144,7 +144,7 @@ main .box-text {
 #personal, #funny, #Mona-Lisa, #art-gallery, #warhol {
 	background-color: rgb(240,240,240);
 }
-#creative, #unique, #race-winner, #snakes-ladders {
+#creative, #unique, #race-winner, #snakes-ladders, #sailors {
 	background-color: rgb(220,220,200);
 }
 #memorable, #serious, #album-cover, #pcc {
@@ -412,7 +412,7 @@ footer .graphic4 {
 	#action3 {
 		font-size: 1em;
 	}
-	.quote-pic2 {
+	#snakes-ladders .quote-pic2 {
 		height: 8em;
 	}
 	footer section p {
