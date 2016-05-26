@@ -306,10 +306,21 @@ footer .graphic4 {
 	height: 15em;
 	margin: 0 0 .3em .3em;
 }
-.quote {
+p.quote {
 	font-style: italic;
 }
-
+p.quote::before {
+	content: "\201C";
+}
+p.quote::after {
+	content: "\201D";
+}
+p.quoted {
+	font-size: .9em;
+}
+p.quoted::before {
+	content: "\2014";
+}
 @media screen and (max-width: 1050px) {
 	.nav1, #action1-top, #action2-top, #action1 ul li, #action2 p {
 		font-size: 1em;
